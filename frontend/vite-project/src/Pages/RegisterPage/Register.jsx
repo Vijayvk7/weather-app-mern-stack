@@ -35,7 +35,7 @@ const Register = () => {
         return;
       }
 
-      const result = await axios.post("http://localhost:5000/vk/register", {
+      const result = await axios.post("https://weather-app-mern-stack.onrender.com", {
         email,
         password,
       });
