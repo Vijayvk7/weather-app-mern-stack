@@ -95,7 +95,7 @@ const weather = () => {
     setLoading(true);
 
     try {
-      const response = await axios.get("http://localhost:5000/vk/main", {
+      const response = await axios.get("https://weather-app-mern-stack.onrender.com", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
