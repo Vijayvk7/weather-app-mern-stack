@@ -1,0 +1,27 @@
+.log {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: -29px;
+    font-weight: 600;
+    margin-left: 250px;
+    color: beige;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: calc(100% - 40px);
+        padding: 10px;
+    }
+    .log {
+        transform: translateX(-40px);
+    }
+}
