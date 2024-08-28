@@ -40,7 +40,7 @@ const Login = () => {
     }
 
     try {
-      const response = await axios.get("http://localhost:5000/vk/login", {
+      const response = await axios.get("https://weather-app-mern-stack.onrender.com", {
         params: {
           email: email,
           password: password,
